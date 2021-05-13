@@ -21,7 +21,7 @@ triggerClientEvent(plr,"oklejpojazd",plr,v)
 end,1000,1)
 end
 
-Zalecam również dodać do respu pojazdy jeśli miał być on wyciągany z "przecho"
+Zalecam również dodać do respu pojazdy jeśli miał być on wyciągany z "przecho".
 
 przykład:
 setTimer(function()
