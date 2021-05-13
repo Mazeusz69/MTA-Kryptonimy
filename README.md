@@ -16,14 +16,14 @@ Aby wszystko ładnie działało trzeba wykonać następujące czynności:
 
 przykład:
 for i,v in ipairs(getElementsByType("vehicle")) do
-		setTimer(function()
-			triggerClientEvent(plr,"oklejpojazd",plr,v)	
-		 end,1000,1)
+setTimer(function()
+triggerClientEvent(plr,"oklejpojazd",plr,v)	
+end,1000,1)
 end
 
 Zalecam również dodać do respu pojazdy jeśli miał być on wyciągany z "przecho"
 
 przykład:
 setTimer(function()
-			triggerClientEvent(root,"oklejpojazd",root,veh)	
+triggerClientEvent(root,"oklejpojazd",root,veh)	
 end,250,1)
