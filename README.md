@@ -20,7 +20,7 @@ for i,v in ipairs(getElementsByType("vehicle")) do
 
 setTimer(function()
 
-triggerClientEvent(plr,"oklejpojazd",plr,v)	
+   triggerClientEvent(plr,"oklejpojazd",plr,v)	
 
 end,1000,1)
 
@@ -35,7 +35,7 @@ przykład:
 
 setTimer(function()
 
-triggerClientEvent(root,"oklejpojazd",root,veh)	
+   triggerClientEvent(root,"oklejpojazd",root,veh)	
 
 end,250,1)
 
