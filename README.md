@@ -14,6 +14,8 @@ Aby wszystko ładnie działało trzeba wykonać następujące czynności:
 
 4. Aby kryptonimy wczytywały się podczas wejścia na serwer wystarczy dodać trigger przy respie gracza.
 
+
+
 przykład:
 
 for i,v in ipairs(getElementsByType("vehicle")) do
