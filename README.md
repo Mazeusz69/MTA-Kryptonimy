@@ -8,12 +8,12 @@ Prosty skrypt na kryptonimy dla frakcji. Dzięki niemu w łatwy sposób dodasz o
 Aby wszystko ładnie działało trzeba wykonać następujące czynności:
 1. W folderze IMG dodać swoje kryptonimy na przykład dla frakcji SAPD.
 2. Dodać pliki do meta.xml.
-3. W pliku c.lua dopisać do tabeli nasze kryptonimy. (Stosując się do wzoru.)
+3. Nadaj na pojazd elementdate "textura"
+4. W pliku c.lua dopisać do tabeli nasze kryptonimy. (Stosując się do wzoru.)
    
    ["nazwa txt"] = {"ścieżka do pliku", "textura która ma być podmieniona"}
 
-4. Aby kryptonimy wczytywały się podczas wejścia na serwer wystarczy dodać trigger przy respie gracza.
-
+5. Aby kryptonimy wczytywały się podczas wejścia na serwer wystarczy dodać trigger przy respie gracza.
 
 
 ### Przykład:
