@@ -17,7 +17,7 @@ Aby wszystko ładnie działało trzeba wykonać następujące czynności:
 
 
 przykład:
-
+    (uint) for i,v in ipairs(getElementsByType("vehicle")) do
 for i,v in ipairs(getElementsByType("vehicle")) do
 
 setTimer(function()
