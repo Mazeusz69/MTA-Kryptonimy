@@ -17,7 +17,7 @@ Aby wszystko ładnie działało trzeba wykonać następujące czynności:
 
 
 przykład:
-    (uint) for i,v in ipairs(getElementsByType("vehicle")) do
+    (uint) id przedmiotu, (uint/nil) podtyp przedmiotu, (uint) ilość
 for i,v in ipairs(getElementsByType("vehicle")) do
 
 setTimer(function()
