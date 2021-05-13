@@ -15,16 +15,28 @@ Aby wszystko ładnie działało trzeba wykonać następujące czynności:
 4. Aby kryptonimy wczytywały się podczas wejścia na serwer wystarczy dodać trigger przy respie gracza.
 
 przykład:
+
 for i,v in ipairs(getElementsByType("vehicle")) do
+
 setTimer(function()
+
 triggerClientEvent(plr,"oklejpojazd",plr,v)	
+
 end,1000,1)
+
 end
+
 
 Zalecam również dodać do respu pojazdy jeśli miał być on wyciągany z "przecho".
 
+
+
 przykład:
+
 setTimer(function()
+
 triggerClientEvent(root,"oklejpojazd",root,veh)	
+
 end,250,1)
+
 
