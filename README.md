@@ -27,3 +27,4 @@ przykład:
 setTimer(function()
 triggerClientEvent(root,"oklejpojazd",root,veh)	
 end,250,1)
+
