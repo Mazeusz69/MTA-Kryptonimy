@@ -16,8 +16,7 @@ Aby wszystko ładnie działało trzeba wykonać następujące czynności:
 
 
 
-przykład:
-    (uint) id przedmiotu, (uint/nil) podtyp przedmiotu, (uint) ilość
+### Przykład:
 for i,v in ipairs(getElementsByType("vehicle")) do
 
 setTimer(function()
@@ -33,7 +32,7 @@ Zalecam również dodać do respu pojazdy jeśli miał być on wyciągany z "prz
 
 
 
-przykład:
+### Przykład:
 
 setTimer(function()
 
