@@ -1,0 +1,5 @@
+<meta>
+	<script src='c.lua' type='client' cache='false'/>
+	<file src="sh.fx" />
+	<file src="img/SAPD/k001.png" />
+</meta>
